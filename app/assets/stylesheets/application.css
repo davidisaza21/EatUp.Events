@@ -90,8 +90,7 @@ h1 {
 .submit {
 	font-weight: 600;
 	margin-left: 2vw;
-	background-image: url('/assets/button.png');
-	background: no-repeat center;
+	background: no-repeat center url('/assets/button.png');
 	background-size: 100%;
 	width: 16vw;
 	height: 8vh;
