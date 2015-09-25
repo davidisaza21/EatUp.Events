@@ -37,7 +37,7 @@ time, mark, audio, video {
 
 body {
 	font-family: 'Raleway', sans-serif;
-	background: url('/assets/email-bg.png')  no-repeat;
+	background: asset-url('/assets/email-bg.png')  no-repeat;
 	background-size: cover;
 }
 h1 {
@@ -90,7 +90,7 @@ h1 {
 .submit {
 	font-weight: 600;
 	margin-left: 2vw;
-	background: no-repeat center url('/assets/button.png');
+	background: no-repeat center asset-url('/assets/button.png');
 	background-size: 100%;
 	width: 16vw;
 	height: 8vh;
