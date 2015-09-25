@@ -1,0 +1,116 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url('/assets/email-bg.png')  no-repeat;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 72px;
+	color: white;
+}
+#user_email {
+	width: 26vw;
+	height: 6vh;
+	font-size: 2.5vh;
+	border-radius: 3px;
+	border: none;
+	color: #AFAFAF; 
+}
+.heading {
+	margin-left: 20vw;
+	margin-right: 20vw;
+	margin-top: 15vh;
+}
+.description {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-size: 20px;
+}
+#app_name {
+	color: white;
+	font-weight: 600;
+	font-style: italic;
+}
+.email_signup {
+	background: white;
+	opacity: .2;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 5vh;
+	height: 14vh;
+	border: none;
+	z-index: -1;
+}
+.email_form {
+	margin-top: 8vh;
+	margin-left: 18vw;
+	margin-bottom: -14vh;
+	z-index: 4;
+	position: absolute;
+
+}
+.submit {
+	font-weight: 600;
+	margin-left: 2vw;
+	background: no-repeat center url('/assets/button.png');
+	background-size: 100%;
+	width: 16vw;
+	height: 8vh;
+	border: none;
+	color: white;
+	position: relative;
+}
+#user_location {
+	height: 6vh;
+	border: none;
+	width: 16vw;
+	margin-left: 2vw;
+	color: #AFAFAF;
+    font: inherit;
+}
+#form_shape {
+	display: inline-table;
+}
+.submit_response {
+	margin-top: 6vh;
+	margin-bottom: -18vh;
+}

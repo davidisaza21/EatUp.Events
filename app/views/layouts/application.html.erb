@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+  <%= csrf_meta_tags %>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,600,500' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+
+	<h1 class="heading">A unique dining experience curated by your favorite chefs.
+	</h1>
+	<p class="description">
+		<br>
+		All you have to do is <a id="app_name">Eat Up.</a>
+		<br>
+		<br>
+		<br>
+		<br>
+		Enter your email for a chance to win a seat at our launch event
+	</p>
+
+
+
+<%= yield %>
+
+<div class="email_signup">
+</div>
+
+</body>
+</html>
