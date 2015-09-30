@@ -14,7 +14,7 @@
  *= require_self
  */
 
- html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -58,7 +58,9 @@ h1 {
 	margin-right: 20vw;
 	margin-top: 15vh;
 }
-.description {
+.description,
+#slogan,
+#enter-email {
 	color: white;
 	text-align: center;
 	font-weight: 300;
@@ -112,4 +114,85 @@ h1 {
 .submit_response {
 	margin-top: 6vh;
 	margin-bottom: -18vh;
+}
+
+#dropdown_arrow {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 360px) {
+
+  .heading {
+    margin-top: 6vh;
+    text-align: left;
+    font-weight: 300;
+    font-size: 30px;
+  }
+
+  #slogan {
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 20vw;
+    margin-top: -3vh;
+  }
+
+  #enter-email {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 6vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  #form_shape label {
+    display: block;
+    width: 100vw;
+  }
+
+  #user_email {
+    width: 60vw;
+  	height: 4vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #user_location {
+    width: 60vw;
+  	height: 4vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 1vh;
+    margin-left: 0;
+  	color: #AFAFAF;
+    text-align: center;
+  }
+
+  .submit {
+    width: 60vw;
+  	height: 4vh;
+  	font-weight: 300;
+    font-size: 12px;
+    margin-top: 1vh;
+    margin-left: 0;
+  }
+
+  .email_signup {
+    margin-top: -10vh;
+  	height: 32vh;
+  }
+
+  .email_form {
+  	margin-top: 4vh;
+  }
+
+  #dropdown_arrow {
+    visibility: visible;
+  }
+
+
 }
