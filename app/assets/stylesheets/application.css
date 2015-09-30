@@ -193,6 +193,79 @@ h1 {
   #dropdown_arrow {
     visibility: visible;
   }
+}
 
+@media only screen and (max-width: 320px) {
 
+  .heading {
+    margin-top: 6vh;
+    text-align: left;
+    font-weight: 300;
+    font-size: 28px;
+  }
+
+  #slogan {
+    text-align: left;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 20vw;
+    margin-top: -3vh;
+  }
+
+  #enter-email {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 6vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  #form_shape label {
+    display: block;
+    width: 100vw;
+  }
+
+  #user_email {
+    width: 60vw;
+  	height: 4vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  #user_location {
+    width: 60vw;
+  	height: 4vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 1vh;
+    margin-left: 0;
+  	color: #AFAFAF;
+    text-align: center;
+  }
+
+  .submit {
+    width: 60vw;
+  	height: 4vh;
+  	font-weight: 300;
+    font-size: 12px;
+    margin-top: 1vh;
+    margin-left: 0;
+  }
+
+  .email_signup {
+    margin-top: -16vh;
+  	height: 44vh;
+  }
+
+  .email_form {
+  	margin-top: 4vh;
+  }
+
+  #dropdown_arrow {
+    visibility: visible;
+  }
 }
