@@ -294,7 +294,161 @@ h1 {
 
   .email_signup {
     margin-top: -10vh;
+    height: 58vh;
+  }
+
+  .email_form {
+    margin-top: 8vh;
+  }
+}
+
+/*Google Nexus 6 and iPhone 6 Plus*/
+
+@media only screen and (max-width: 414px) {
+
+  .heading {
+    font-size: 30px;
+  }
+
+  #slogan {
+    font-size: 18px;
+    margin-left: 20vw;
+    margin-top: -1vh;
+  }
+
+  #enter-email {
+    font-size: 18px;
+    margin-top: 6vh;
+  }
+
+  #user_email {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+
+  #user_location {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 3vh;
+  }
+
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 3vh;
+  }
+
+  .email_signup {
+    margin-top: -14vh;
+    height: 58vh;
+  }
+
+  .email_form {
+    margin-top: 8vh;
+  }
+}
+
+/*iPhone 6, Samsung Galaxies, Nokia N9 and comparable devices */
+
+@media only screen and (max-width: 375px) {
+  .heading {
+    font-size: 28px;
+  }
+
+  #slogan {
+    font-size: 14px;
+    margin-left: 20vw;
+    margin-top: -1vh;
+  }
+
+  #enter-email {
+    font-size: 14px;
+    margin-top: 6vh;
+  }
+
+  #user_email {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  #user_location {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 3vh;
+  }
+
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3vh;
+  }
+
+  .email_signup {
+    margin-top: -10vh;
     height: 56vh;
+  }
+
+  .email_form {
+    margin-top: 8vh;
+  }
+}
+
+/*iPhone 4, iPhone 5, Nokia Lumia 520, and comparable devices*/
+
+@media only screen and (max-width: 320px) {
+  .heading {
+    font-size: 26px;
+  }
+
+  #slogan {
+    font-size: 14px;
+    margin-left: 20vw;
+    margin-top: -2vh;
+  }
+
+  #enter-email {
+    font-size: 14px;
+    margin-top: 6vh;
+  }
+
+  #user_email {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+
+  #user_location {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-top: 3vh;
+  }
+
+  .submit {
+    width: 60vw;
+    height: 6vh;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 3vh;
+  }
+
+  .email_signup {
+    margin-top: -14vh;
+    height: 52vh;
   }
 
   .email_form {
