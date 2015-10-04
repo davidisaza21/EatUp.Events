@@ -120,26 +120,31 @@ h1 {
   visibility: hidden;
 }
 
-@media only screen and (max-width: 440px) {
+/*Nexus 10 and comparable devices*/
+@media only screen and (max-width: 800px) {
+  html {
+    width: 800px;
+  }
+  
   .heading {
     margin-top: 6vh;
     text-align: left;
     font-weight: 300;
-    font-size: 30px;
+    font-size: 60px;
   }
 
   #slogan {
     text-align: left;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 32px;
     margin-left: 20vw;
-    margin-top: -3vh;
+    margin-top: 0vh;
   }
 
   #enter-email {
     text-align: justify;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 32px;
     margin-top: 6vh;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -152,268 +157,45 @@ h1 {
 
   #user_email {
     width: 60vw;
-  	height: 4vh;
+  	height: 8vh;
     border-radius: 3px;
     font-weight: 300;
-    font-size: 14px;
-    text-align: center;
+    font-size: 32px;
+    text-align: left;
   }
 
   #user_location {
     width: 60vw;
-  	height: 4vh;
+  	height: 8vh;
     border-radius: 3px;
     font-weight: 300;
-    font-size: 14px;
-    margin-top: 1vh;
+    font-size: 32px;
+    margin-top: 3vh;
     margin-left: 0;
   	color: #AFAFAF;
-    text-align: center;
+    text-align: left;
   }
 
   .submit {
     width: 60vw;
-  	height: 4vh;
+  	height: 8vh;
   	font-weight: 300;
-    font-size: 12px;
-    margin-top: 1vh;
+    font-size: 32px;
+    margin-top: 3vh;
     margin-left: 0;
+    text-align: center;
   }
 
   .email_signup {
     margin-top: -10vh;
-  	height: 32vh;
+  	height: 58vh;
   }
 
   .email_form {
-  	margin-top: 4vh;
+  	margin-top: 8vh;
   }
 
   #dropdown_arrow {
-    visibility: visible;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .heading {
-    margin-top: 6vh;
-    text-align: left;
-    font-weight: 300;
-    font-size: 30px;
-  }
-
-  #slogan {
-    text-align: left;
-    font-weight: 300;
-    font-size: 14px;
-    margin-left: 20vw;
-    margin-top: -3vh;
-  }
-
-  #enter-email {
-    text-align: justify;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 6vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-  }
-
-  #form_shape label {
-    display: block;
-    width: 100vw;
-  }
-
-  #user_email {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #user_location {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 1vh;
-    margin-left: 0;
-  	color: #AFAFAF;
-    text-align: center;
-  }
-
-  .submit {
-    width: 60vw;
-  	height: 4vh;
-  	font-weight: 300;
-    font-size: 12px;
-    margin-top: 1vh;
-    margin-left: 0;
-  }
-
-  .email_signup {
-    margin-top: -10vh;
-  	height: 32vh;
-  }
-
-  .email_form {
-  	margin-top: 4vh;
-  }
-
-  #dropdown_arrow {
-    visibility: visible;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-
-  .heading {
-    margin-top: 6vh;
-    text-align: left;
-    font-weight: 300;
-    font-size: 30px;
-  }
-
-  #slogan {
-    text-align: left;
-    font-weight: 300;
-    font-size: 14px;
-    margin-left: 20vw;
-    margin-top: -3vh;
-  }
-
-  #enter-email {
-    text-align: justify;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 6vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-  }
-
-  #form_shape label {
-    display: block;
-    width: 100vw;
-  }
-
-  #user_email {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #user_location {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 1vh;
-    margin-left: 0;
-  	color: #AFAFAF;
-    text-align: center;
-  }
-
-  .submit {
-    width: 60vw;
-  	height: 4vh;
-  	font-weight: 300;
-    font-size: 12px;
-    margin-top: 1vh;
-    margin-left: 0;
-  }
-
-  .email_signup {
-    margin-top: -10vh;
-  	height: 32vh;
-  }
-
-  .email_form {
-  	margin-top: 4vh;
-  }
-
-  #dropdown_arrow {
-    visibility: visible;
-  }
-}
-
-@media only screen and (max-width: 320px) {
-
-  .heading {
-    margin-top: 6vh;
-    text-align: left;
-    font-weight: 300;
-    font-size: 28px;
-  }
-
-  #slogan {
-    text-align: left;
-    font-weight: 300;
-    font-size: 14px;
-    margin-left: 20vw;
-    margin-top: -3vh;
-  }
-
-  #enter-email {
-    text-align: justify;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 6vh;
-    margin-left: 20vw;
-    margin-right: 20vw;
-  }
-
-  #form_shape label {
-    display: block;
-    width: 100vw;
-  }
-
-  #user_email {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    text-align: center;
-  }
-
-  #user_location {
-    width: 60vw;
-  	height: 4vh;
-    border-radius: 3px;
-    font-weight: 300;
-    font-size: 14px;
-    margin-top: 1vh;
-    margin-left: 0;
-  	color: #AFAFAF;
-    text-align: center;
-  }
-
-  .submit {
-    width: 60vw;
-  	height: 4vh;
-  	font-weight: 300;
-    font-size: 12px;
-    margin-top: 1vh;
-    margin-left: 0;
-  }
-
-  .email_signup {
-    margin-top: -16vh;
-  	height: 44vh;
-  }
-
-  .email_form {
-  	margin-top: 4vh;
-  }
-
-  #dropdown_arrow {
-    visibility: visible;
+    visibility: hidden;
   }
 }
