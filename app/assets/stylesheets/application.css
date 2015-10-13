@@ -37,7 +37,7 @@ time, mark, audio, video {
 
 body {
 	font-family: 'Raleway', sans-serif;
-	background-image: image-url('email-bg.png')  no-repeat;
+	background-image: asset-data-url('email-bg.png')  no-repeat;
 	background-size: cover;
 }
 h1 {
