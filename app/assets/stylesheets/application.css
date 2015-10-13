@@ -37,7 +37,7 @@ time, mark, audio, video {
 
 body {
 	font-family: 'Raleway', sans-serif;
-	background: url('/assets/email-bg.png')  no-repeat;
+	background: url('email-bg.png')  no-repeat;
 	background-size: cover;
 }
 h1 {
@@ -46,10 +46,12 @@ h1 {
 	font-size: 80px;
 	color: white;
 }
+.eatup_bg {
+  width:100% ;
+}
 .eatup_brand {
   display: block;
   margin: 0 auto;
-  /*margin-top: 2vh;*/
   height: 22vh;
 }
 #user_email {
@@ -62,7 +64,6 @@ h1 {
 .heading {
 	margin-left: 15vw;
 	margin-right: 15vw;
-	/*margin-top: 5vh;*/
 }
 .description,
 #slogan,
@@ -98,7 +99,7 @@ h1 {
 .submit {
 	font-weight: 600;
 	margin-left: 2vw;
-	background: no-repeat center url('/assets/button.png');
+	background: no-repeat center url('button.png');
 	background-size: 100%;
 	width: 16vw;
 	height: 8vh;
@@ -120,15 +121,17 @@ h1 {
 }
 .submit_response {
 	margin-top: 6vh;
-	margin-bottom: -18vh;
+	margin-bottom: -14vh;
+  font-size: 24px;
+  color: #ABABAB;
 }
 
 #dropdown_arrow {
   visibility: hidden;
 }
 .footer {
-  margin-top: 5vh;
-  height: 15vh;
+  margin-top: 10vh;
+  height: 10vh;
   text-align: center;
 }
 #social_media li {
@@ -142,6 +145,12 @@ h1 {
 }
 .IG-icon {
   height: 5vh;
+}
+.EU-events_copy {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  display: inherit;
 }
 /*Nexus 10 and comparable devices*/
 
