@@ -10,16 +10,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
+	<%=image_tag ("logo.png"), :class => "eatup_brand" %>
 	<h1 class="heading">A unique dining experience curated by your favorite chefs.
 	</h1>
 
 	<div class="description">
 		<br>
 		<p id="slogan">All you have to do is <a id="app_name">Eat Up.</a></p>
-		<br>
-		<br>
-    <%= image_tag ('dropdown_arrow.png'), :id => "dropdown_arrow" %>
 		<br>
 		<br>
 		<p id="enter-email">Enter your email for a chance to win a seat at our launch event.</p>
@@ -31,6 +28,23 @@
 
 <div class="email_signup">
 </div>
+
+<div class="footer">
+	<ul id="social_media">
+		<li id="fb"><a href="http://www.facebook.com/eatupevents" target="_blank">
+			<%= image_tag ("eatup_facebook.png"), :class => "fb-icon"%>
+			</a>
+		</li>
+		<li id="twitter"><a href="http://twitter.com/EatupEvents" target="_blank">
+			<%= image_tag ("eatup_twitter.png"), :class => "twitter-icon"%>
+			</a>
+		</li>
+		<li id="IG"><a href="http://instagram.com/eatup.events/" target="_blank">
+			<%= image_tag ("eatup_instagram.png"), :class => "IG-icon"%>
+		  	</a>
+		</li>
+	</ul>
+	<li class="EU-events_copy">
 
 </body>
 </html>

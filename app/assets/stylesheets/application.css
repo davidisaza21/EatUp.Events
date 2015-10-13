@@ -43,8 +43,14 @@ body {
 h1 {
 	text-align: center;
 	font-weight: 500;
-	font-size: 72px;
+	font-size: 80px;
 	color: white;
+}
+.eatup_brand {
+  display: block;
+  margin: 0 auto;
+  /*margin-top: 2vh;*/
+  height: 22vh;
 }
 #user_email {
 	width: 26vw;
@@ -54,9 +60,9 @@ h1 {
 	border: none;
 }
 .heading {
-	margin-left: 20vw;
-	margin-right: 20vw;
-	margin-top: 15vh;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	/*margin-top: 5vh;*/
 }
 .description,
 #slogan,
@@ -64,7 +70,7 @@ h1 {
 	color: white;
 	text-align: center;
 	font-weight: 300;
-	font-size: 20px;
+	font-size: 26px;
 }
 #app_name {
 	color: white;
@@ -99,6 +105,7 @@ h1 {
 	border: none;
 	color: white;
 	position: relative;
+  font-size: 14px;
 }
 #user_location {
 	height: 6vh;
@@ -106,7 +113,7 @@ h1 {
 	width: 16vw;
 	margin-left: 2vw;
 	color: #AFAFAF;
-    font: inherit;
+  font: inherit;
 }
 #form_shape {
 	display: inline-table;
@@ -119,7 +126,23 @@ h1 {
 #dropdown_arrow {
   visibility: hidden;
 }
-
+.footer {
+  margin-top: 5vh;
+  height: 15vh;
+  text-align: center;
+}
+#social_media li {
+  display: inline-block;
+}
+.fb-icon {
+  height: 5vh;
+}
+.twitter-icon {
+  height: 5vh;
+}
+.IG-icon {
+  height: 5vh;
+}
 /*Nexus 10 and comparable devices*/
 
 @media only screen and (max-width: 800px) {
