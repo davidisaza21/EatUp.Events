@@ -339,19 +339,20 @@ h1 {
 /*iPhone 6, Samsung Galaxies, Nokia N9 and comparable devices */
 
 @media only screen and (max-width: 450px) {
-    html, body, div, span, applet, object, iframe,
-    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-    a, abbr, acronym, address, big, cite, code,
-    del, dfn, em, img, ins, kbd, q, s, samp,
-    small, strike, strong, sub, sup, tt, var,
-    b, u, i, center,
-    dl, dt, dd, ol, ul, li,
-    fieldset, form, label, legend,
-    table, caption, tbody, tfoot, thead, tr, th, td,
-    article, aside, canvas, details, embed,
-    figure, figcaption, footer, header, hgroup,
-    menu, nav, output, ruby, section, summary,
-    time, mark, audio, video {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
         margin: 0;
         padding: 0;
         border: 0;
@@ -359,52 +360,70 @@ h1 {
         /*font: inherit;*/
         vertical-align: baseline; 
   }
+  html {
+    max-width: 100vw;
+  }
   body {
     font-family: 'Raleway', sans-serif;
     background: url('mobile-bg.png')  no-repeat;
-    background-size: cover;
+  }
+  .eatup_brand {
+    
+    height: 30vh;
   }
   .heading {
-    font-size: 28px;
+    font-size: 30px;
+    margin-left: 20vw;
+    text-align: left;
   }
 
   #slogan {
-    font-size: 14px;
-    margin-left: 20vw;
-    margin-top: -1vh;
+    font-size: 18px;
   }
 
   #enter-email {
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 6vh;
   }
-
+  #form_shape {
+    max-width: 60vw;
+  }
+  #email_field {
+    max-width: 60vw;
+  }
+  #loc_field  {
+    max-width: 60vw;
+  }
+  #enter_button {
+    max-width: 60vw;
+  }
   #user_email {
     width: 60vw;
     height: 6vh;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   #user_location {
     width: 60vw;
-    height: 6vh;
+    height: 14vh;
     border-radius: 3px;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 3vh;
   }
 
   .submit {
-    width: 60vw;
-    height: 6vh;
+    height: 10vh;
     font-weight: 300;
-    font-size: 14px;
+    font-size: 18px;
     margin-top: 3vh;
   }
 
   .email_signup {
+    margin-left: 0;
     margin-top: -10vh;
-    height: 56vh;
+    width: 100vw;
+    /*height: 56vh;*/
   }
 
   .email_form {
