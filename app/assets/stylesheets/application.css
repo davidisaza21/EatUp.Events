@@ -282,60 +282,6 @@ h1 {
   }
 }
 
-/*Google Nexus 7 and comparable devices*/
-
-@media only screen and (max-width: 600px) {
-
-  .heading {
-    font-size: 46px;
-  }
-
-  #slogan {
-    font-size: 23px;
-    margin-left: 20vw;
-    margin-top: -1vh;
-  }
-
-  #enter-email {
-    font-size: 23px;
-    margin-top: 6vh;
-  }
-
-  #user_email {
-    width: 60vw;
-    height: 6vh;
-    border-radius: 3px;
-    font-size: 23px;
-  }
-
-  #user_location {
-    width: 60vw;
-    height: 6vh;
-    border-radius: 3px;
-    font-size: 23px;
-    margin-top: 3vh;
-  }
-
-  .submit {
-    width: 60vw;
-    height: 6vh;
-    font-weight: 300;
-    font-size: 23px;
-    margin-top: 3vh;
-  }
-
-  .email_signup {
-    margin-top: -10vh;
-    height: 58vh;
-  }
-
-  .email_form {
-    margin-top: 8vh;
-  }
-}
-
-
-
 /*iPhone 6, Samsung Galaxies, Nokia N9 and comparable devices */
 
 @media only screen and (max-width: 480px) {
