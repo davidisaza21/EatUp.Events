@@ -338,7 +338,7 @@ h1 {
 
 /*iPhone 6, Samsung Galaxies, Nokia N9 and comparable devices */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 480px) {
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
