@@ -10,9 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
- *= require_self
+
+
  */
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -363,7 +364,7 @@ time, mark, audio, video {
 
   .submit {
     background: no-repeat center url('mobile-button.png');
-    height: 22vh;
+    height: 18vh;
     width: 88vw;
     font-weight: 300;
     font-size: 18px;
