@@ -1,0 +1,379 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background: url('email-bg.png')  no-repeat;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	font-weight: 500;
+	font-size: 80px;
+	color: white;
+}
+.eatup_bg {
+  width:100% ;
+}
+.eatup_brand {
+  display: block;
+  margin: 0 auto;
+  height: 22vh;
+}
+#user_email {
+	width: 26vw;
+	height: 6vh;
+	font-size: 2.5vh;
+	border-radius: 3px;
+	border: none;
+}
+.heading {
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+.description,
+#slogan,
+#enter-email {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	font-size: 26px;
+}
+#app_name {
+	color: white;
+	font-weight: 600;
+	font-style: italic;
+}
+.email_signup {
+	background: white;
+	opacity: .2;
+	margin-left: 15vw;
+	margin-right: 15vw;
+	margin-top: 5vh;
+	height: 14vh;
+	border: none;
+	z-index: -1;
+}
+.email_form {
+	margin-top: 8vh;
+	margin-left: 18vw;
+	margin-bottom: -14vh;
+	z-index: 4;
+	position: absolute;
+
+}
+.submit {
+	font-weight: 600;
+	margin-left: 2vw;
+	background: no-repeat center url('button.png');
+	background-size: 100%;
+	width: 16vw;
+	height: 8vh;
+	border: none;
+	color: white;
+	position: relative;
+  font-size: 14px;
+}
+#user_location {
+	height: 6vh;
+	border: none;
+	width: 16vw;
+	margin-left: 2vw;
+	color: #AFAFAF;
+  font: inherit;
+}
+#form_shape {
+	display: inline-table;
+}
+.submit_response {
+	margin-top: 6vh;
+	margin-bottom: -14vh;
+  font-size: 24px;
+  color: #ABABAB;
+}
+
+#dropdown_arrow {
+  visibility: hidden;
+}
+.footer {
+  margin-top: 10vh;
+  height: 10vh;
+  text-align: center;
+}
+#social_media li {
+  display: inline-block;
+}
+.fb-icon {
+  height: 5vh;
+}
+.twitter-icon {
+  height: 5vh;
+}
+.IG-icon {
+  height: 5vh;
+}
+.EU-events_copy {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  display: inherit;
+}
+/*Nexus 10 and comparable devices*/
+
+@media only screen and (max-width: 800px) {
+
+  .heading {
+    margin-top: 6vh;
+    text-align: left;
+    font-weight: 300;
+    font-size: 58px;
+  }
+
+  #slogan {
+    text-align: left;
+    font-weight: 300;
+    font-size: 29px;
+    margin-left: 20vw;
+    margin-top: 0vh;
+  }
+
+  #enter-email {
+    text-align: justify;
+    font-weight: 300;
+    font-size: 29px;
+    margin-top: 6vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  #form_shape label {
+    display: block;
+    width: 100vw;
+  }
+
+  #user_email {
+    width: 60vw;
+  	height: 6vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 29px;
+    text-align: left;
+  }
+
+  #user_location {
+    width: 60vw;
+  	height: 6vh;
+    border-radius: 3px;
+    font-weight: 300;
+    font-size: 29px;
+    margin-top: 3vh;
+    margin-left: 0;
+  	color: #AFAFAF;
+    text-align: left;
+  }
+
+  .submit {
+    width: 60vw;
+  	height: 6vh;
+  	font-weight: 300;
+    font-size: 29px;
+    margin-top: 3vh;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .email_signup {
+    margin-top: -10vh;
+  	height: 60vh;
+  }
+
+  .email_form {
+  	margin-top: 8vh;
+  }
+
+  #dropdown_arrow {
+    visibility: visible;
+  }
+}
+
+/*Apple iPad and comparable devices*/
+
+@media only screen and (max-device-width: 768px) {
+
+  .heading {
+    font-size: 52px;
+  }
+
+  #slogan {
+    font-size: 26px;
+    margin-left: 20vw;
+    margin-top: -1vh;
+  }
+
+  #enter-email {
+    font-size: 26px;
+    margin-top: 6vh;
+  }
+
+  #user_email {
+    width: 60vw;
+  	height: 6vh;
+    border-radius: 3px;
+    font-size: 26px;
+  }
+
+  #user_location {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 26px;
+    margin-top: 3vh;
+  }
+
+  .submit {
+    width: 60vw;
+  	height: 6vh;
+  	font-weight: 300;
+    font-size: 26px;
+    margin-top: 3vh;
+  }
+
+  .email_signup {
+    margin-top: -10vh;
+  	height: 56vh;
+  }
+
+  .email_form {
+  	margin-top: 8vh;
+  }
+}
+
+/*iPhone 6, Samsung Galaxies, Nokia N9 and comparable devices */
+
+@media only screen and (max-device-width: 480px) {
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        /*font: inherit;*/
+        vertical-align: baseline; 
+  }
+  html {
+    max-width: 100vw;
+  }
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: url('mobile-bg.png')  no-repeat;
+  }
+  .eatup_brand {
+    
+    height: 30vh;
+  }
+  .heading {
+    font-size: 30px;
+    margin-left: 20vw;
+    text-align: left;
+  }
+
+  #slogan {
+    font-size: 18px;
+  }
+
+  #enter-email {
+    font-size: 18px;
+    margin-top: 6vh;
+  }
+  #form_shape {
+    max-width: 60vw;
+  }
+  #email_field {
+    max-width: 60vw;
+  }
+  #loc_field  {
+    max-width: 60vw;
+  }
+  #enter_button {
+    max-width: 60vw;
+  }
+  #user_email {
+    width: 60vw;
+    height: 6vh;
+    border-radius: 3px;
+    font-size: 18px;
+  }
+
+  #user_location {
+    width: 60vw;
+    height: 14vh;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 3vh;
+  }
+
+  .submit {
+    height: 10vh;
+    font-weight: 300;
+    font-size: 18px;
+    margin-top: 3vh;
+  }
+
+  .email_signup {
+    margin-left: 0;
+    margin-top: -10vh;
+    width: 100vw;
+    /*height: 56vh;*/
+  }
+
+  .email_form {
+    margin-top: 8vh;
+  }
+}
