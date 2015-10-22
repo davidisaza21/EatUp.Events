@@ -14,3 +14,10 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$('.email_input').mailgun_validator({
+       api_key: 'pubkey-dd840fc3786136db5eb1b1c67f5e9de9',
+       in_progress: in_progress_callback, // called when request is made to validator
+       success: success_callback,         // called when validator has returned
+       error: validation_error,           // called when an error reaching the validator has occured
+   });
