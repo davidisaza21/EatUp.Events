@@ -53,25 +53,26 @@
 		&copy; 2015 Eatup.Events all rights reserved.
 	</li>
 </div>
+
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="mailgun_validator.js"></script>
     <script>
       // document ready
       $(function() {
         // capture all enter and do nothing
-        $('#email').keypress(function(e) {
+        $('.email_input').keypress(function(e) {
           if(e.which == 13) {
-            $('#email').trigger('focusout');
+            $('.email_input').trigger('focusout');
             return false;
           }
         });
         // capture clicks on validate and do nothing
-        $("#validate_submit").click(function() {
+        $('.submit').click(function() {
           return false;
         });
         // attach jquery plugin to validate address
-        $('#email').mailgun_validator({
-          api_key: 'MAILGUN_PUBKEY', // replace this with your Mailgun public API key
+        $('.email_input').mailgun_validator({
+          api_key: 'pubkey-dd840fc3786136db5eb1b1c67f5e9de9', // replace this with your Mailgun public API key
           in_progress: validation_in_progress,
           success: validation_success,
           error: validation_error,

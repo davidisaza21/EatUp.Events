@@ -1,5 +1,6 @@
 
 <%= form_for @user, url: {action: "create"}, html: {class: "email_form"} do |f| %>
+	<div id="status"></div>
 	<ul id='form_shape'>	
 	  	<label id="email_field">
 	    	<%= f.email_field :email, :class => 'email_input', placeholder: " Enter your E-mail address" %>
